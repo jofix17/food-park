@@ -51,5 +51,6 @@ group :development do
 end
 
 gem 'blueprinter', '~> 0.30.0'
+gem 'cancancan'
 gem 'carrierwave', '~> 3.0'
 gem 'slug', '~> 4.1', '>= 4.1.1'

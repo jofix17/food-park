@@ -85,6 +85,7 @@ GEM
     bootsnap (1.17.0)
       msgpack (~> 1.2)
     builder (3.2.4)
+    cancancan (3.5.0)
     carrierwave (3.0.4)
       activemodel (>= 6.0.0)
       activesupport (>= 6.0.0)
@@ -254,6 +255,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   blueprinter (~> 0.30.0)
   bootsnap
+  cancancan
   carrierwave (~> 3.0)
   debug
   faker (~> 3.2, >= 3.2.2)
