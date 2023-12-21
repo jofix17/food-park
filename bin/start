@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+unless Gem::Specification.find_all_by_name('foreman').any?
+  puts 'Installing foreman...'
+  system('gem install foreman')
+end
+
+# Default to port 3001 if not specified
+port = ENV.fetch('RAILS_PORT', 3001)
+
+exec("foreman start -f Procfile.dev -p #{port} #{ARGV.join(' ')}")

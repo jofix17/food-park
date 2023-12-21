@@ -1,0 +1,1 @@
+api: env RAILS_DEBUG_OPEN=true bin/rails server

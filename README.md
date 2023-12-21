@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+If permission to run `bin/start` for the first time is denied, run with `chmod +x bin/start` to add permission.
